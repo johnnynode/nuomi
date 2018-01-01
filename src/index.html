@@ -1,0 +1,3381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>百度糯米</title>
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+
+</head>
+<body>
+	<div id="topBannerWrap">
+		<div class="topBanner">
+			<a href="#">
+				<span></span>
+			</a>
+			<a href="#">
+				<span></span>
+			</a>
+			<a href="#">
+				<span></span>
+			</a>
+			<a href="#">
+				<span></span>
+			</a>
+		</div>
+		<ol>
+			<li class="cur"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ol>
+		<span></span>
+	</div>
+	<div id="topBarWrap">
+		<div class="topBar">
+			<p class="topBar_left">
+				<strong>北京</strong> <a href="javascript:void(0)">[切换城市]</a>
+			</p>
+			<div class="topBar_right">
+		 		<a href="#">我的订单</a> | 
+				<div>
+					<a href="#">我的糯米</a><i></i>
+					<ul>
+						<li><a href="#">我的订单</a></li>
+						<li><a href="#">选座订单</a></li>
+						<li><a href="#">我的收藏</a></li>
+						<li><a href="#">我的评价</a></li>
+						<li><a href="#">账户余额</a></li>
+						<li><a href="#">我的代金券</a></li>
+						<li><a href="#">我的红包</a></li>
+						<li><a href="#">账户设置</a></li>
+					</ul>
+				</div> 
+				| <a href="#">登录</a> | <a href="#">注册</a>
+				<script	type="text/javascript">
+					$('.topBar_right div').hover(
+					function(){
+						$('.topBar_right div ul').css('display','block');
+						$('.topBar_right div>a').addClass('col_pr');
+						},function(){
+					$('.topBar_right div ul').css('display','none')
+					$('.topBar_right div>a').removeClass('col_pr');
+					});
+					
+				</script>
+			</div>
+		</div>
+	</div>
+	<div id="header">
+		<h1><a href="#"></a></h1>
+		<div class="seach">
+			<div class="seachTop">
+				<div class="seachBox">
+					<div class="seachFrame">
+						<input type="text" value="鲜花" />
+						<script type="text/javascript">
+							$('.seachFrame input').focus(function(){		
+							$('.seachFrame input').css({'color':'#000'});	
+								if($('.seachFrame input').val()=="鲜花"){
+									$('.seachFrame input').val('');		
+								}
+							}).blur(function(){
+								if($('.seachFrame input').val()==""){
+									$('.seachFrame input').css({'color':'#ccc'});
+									$('.seachFrame input').val('鲜花');
+								}else{
+									$('.seachFrame input').css({'color':'#000'});
+								}
+							});
+						</script>
+					</div>
+					<div class="seachBtn">
+						<button></button>
+					</div>
+				</div>
+				<div class="assured">
+					<span><a href="#"></a></span>
+					<p><a href="#">全场随便退独家承诺<i></i></a></p>
+				</div>
+			</div>
+			<div class="seachBottom">
+			<a href="#">火锅</a> <a href="#">小吃快餐</a> <a href="#">阿田大虾</a> <a href="#">巫山烤全鱼</a> <a href="#">东来顺</a>
+			</div>
+		</div>
+	</div>
+	<div id="categoryNavWrap">
+		<div class="categoryNav">
+			<div class="category">
+				<h3>全部团购分类</h3>	
+				<ul>
+					<li>
+						<div class='li_main_outer'>
+							<div class='li_main'>
+							<span style="background-position:0 -186px"></span>
+							<dl>
+								<dt><a href="#">美食</a></dt>  
+								<dd><a href="#">自助餐</a></dd>
+								<dd><a href="#">小吃快餐</a></dd>
+								<dd><a href="#">火锅</a></dd>
+							</dl>
+						</div>
+						</div>
+						<div class='li_container'>
+							<ul>
+								<li>
+									<div>
+										<a href="#">今日新单</a> | <a href="#">小吃快餐</a> | <a href="#">火锅</a> | <a href="#">蛋糕</a> | <a href="#">甜点饮品</a> | <a href="#">咖啡厅/酒吧/茶室 </a></div>
+									<div><a href="#">烧烤/烤肉</a> | <a href="#">自助餐</a> | <a href="#">干锅/香锅</a> | <a href="#">海鲜</a> | <a href="#">聚会宴请</a> | <a href="#">辣味美食</a> | <a href="#">其他美食</a></div>
+									
+								</li>
+								<li>
+									<div><a href="#">全部中餐</a> | <a href="#">川菜</a> | <a href="#">北京菜</a> | <a href="#">烤鱼</a> | <a href="#">湘菜</a> | <a href="#">东北菜</a> | <a href="#">粤菜</a> | <a href="#">麻辣烫</a></div>
+									<div><a href="#">创意菜/私房菜</a> | <a href="#">新疆/清真菜</a> | <a href="#">西北菜</a> | <a href="#">烤鸭</a> | <a href="#">江浙菜</a> | <a href="#">鲁菜</a> | <a href="#">山西菜</a> </div>
+
+									<div><a href="#">云南菜</a> | <a href="#">徽菜</a> | <a href="#">素食</a> | <a href="#">贵州菜</a> | <a href="#">台湾菜</a> | <a href="#">河南菜</a> | <a href="#">湖北菜</a> | <a href="#">内蒙菜</a></div>
+
+									<div><a href="#">江西菜</a> | <a href="#">客家菜</a> | <a href="#">河北菜</a> | <a href="#">闽菜</a> | <a href="#">天津菜</a> | <a href="#">海南菜</a> | <a href="#">其他中餐</a></div>
+								</li>
+								<li>
+									<div><a href="#">西餐</a> | <a href="#">日本料理</a> | <a href="#">韩国料理</a> | <a href="#">披萨</a> | <a href="#">东南亚菜</a> | <a href="#">中东菜</a> | <a href="#">其他异国餐饮</a></div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class='li_main_outer'>
+							<div class='li_main'>
+							<span style="background-position:0 -209px"></span>
+							<dl>
+								<dt><a href="#">电影</a></dt>
+								<dd><a href="#">在线订座</a></dd>
+								<dd><a href="#">电影票团购</a></dd>
+							</dl>
+						</div>
+						</div>
+						<div class='li_container'>
+							<dl>
+								<dt><a href="#">热门影片</a></dt>
+								<dd><a href="#">太平轮（上）</a>  | </dd>
+								<dd>&nbsp;<a href="#"> 撒娇女人最好命 </a> | </dd>
+								<dd>&nbsp;<a href="#">星际穿越 </a> |</dd>
+								<dd>&nbsp;<a href="#">黄飞鸿之英雄有梦</a>  | </dd>
+								<dd>&nbsp; <a href="#">匆匆那年</a> </dd>
+								<dd>&nbsp;<a href="#">狂怒机器</a>  |</dd>
+								<dd> &nbsp;<a href="#">纪元</a>  |</dd>
+								<dd>&nbsp;<a href="#">马达加斯加的企鹅</a>  | </dd>
+								<dd>&nbsp;<a href="#">坏姐姐之拆婚联盟</a>  | </dd>
+								<dd>&nbsp;<a href="#">火线反攻</a>  |</dd>
+								<dd>&nbsp;<a href="#">推拿 </a></dd>
+								<dd>&nbsp;<a href="#">单身男女II </a> |</dd>
+								<dd>&nbsp;<a href="#">怨灵 </a> |</dd>
+								<dd>&nbsp;<a href="#">我的早更女友 </a> |</dd>
+								<dd>&nbsp;<a href="#">天河 </a> |</dd>
+								<dd>&nbsp;<a href="#">爱情狂想曲 </a> |</dd>
+								<dd>&nbsp;<a href="#">斐济99℃爱情</a></dd>
+							</dl>
+							<dl>
+								<dt><a href="#">热门院线</a></dt>
+								<dd><a href="#">北京橙天嘉禾吉彩影城</a> |</dd>
+								<dd>&nbsp;<a href="#">中影国际影城北京千禧街店</a> |</dd>
+								<dd>&nbsp;<a href="#">北京紫光影城</a></dd>
+								<dd>&nbsp;<a href="#">保利国际影城(北京中国科技馆店)</a> |</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<div class='li_main_outer'>
+							<div class='li_main'>
+							<span style="background-position:0 -232px"></span>
+							<dl>
+								<dt><a href="#">休闲娱乐</a></dt>
+								<dd><a href="#">KTV</a></dd>
+								<dd><a href="#">温泉洗浴</a></dd>
+								<dd><a href="#">景点交友</a></dd>
+							</dl>
+						</div>
+						</div>
+						
+						<div class='li_container'>
+							<p>
+								<a href="#">今日新单</a>|<a href="#">足疗按摩</a>|<a href="#">KTV</a>|<a href="#">温泉洗浴</a>|<a href="#">运动健身</a>|<a href="#">景点郊游</a>|<a href="#">密室逃脱</a><br /><a href="#">游泳</a>|<a href="#">演出/展览</a>|<a href="#">DIY手工</a>|<a href="#">游乐园/水上乐园</a>|<a href="#">采摘</a>|<a href="#">4D/5D电影</a><br /><a href="#">滑雪/滑冰</a>|<a href="#">桌游</a>|<a href="#">录音棚</a>|<a href="#">电玩/游戏币</a>|<a href="#">真人CS</a>|<a href="#">卡丁车</a>|<a href="#">文化艺术</a><br /><a href="#">其他娱乐</a>|<a href="#">其他养生</a>|<a href="#">保健</a>|<a href="#">其他娱乐活动</a>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class='li_main_outer'>
+							<div class='li_main'>
+							<span style="background-position:0 -258px"></span>
+							<dl>
+								<dt><a href="#">网购</a></dt>
+								<dd><a href="#">视频保健</a></dd>
+								<dd><a href="#">个护化妆</a></dd>
+								<dd><a href="#">服装/内</a></dd>
+							</dl>
+						</div>
+						</div>				
+						<div class='li_container'>
+							<div><a href="#">糯米优选</a> <a href="#">服装/内衣</a> <a href="#">食品保健</a> <a href="#">家居家纺</a> <a href="#">鞋/箱包</a> <a href="#">数码家电</a> </div>
+							<div><a href="#">个护化妆</a> <a href="#">母婴玩具</a> <a href="#">运动户外</a> <a href="#">手表饰品</a> <a href="#">图书杂志</a></div>
+						</div>
+					</li>
+					<li>
+						<div class='li_main_outer'>
+							<div class='li_main'>
+							<span style="background-position:0 -282px"></span>
+							<dl>
+								<dt><a href="#">生活服务</a></dt>
+								<dd><a href="#">丽人</a></dd>
+								<dd><a href="#">个性写真</a></dd>
+								<dd><a href="#">照片冲印</a></dd>
+							</dl>
+						</div>
+						</div>						
+						<div class='li_container'>
+							<p>
+								<a href="#">今日新单</a>|<a href="#">丽人</a>|<a href="#">鲜花</a>|<a href="#">体检</a>|<a href="#">汽车养护</a>|<a href="#">口腔儿童</a>|<a href="#">摄影</a>|<a href="#">个性写真</a><br /><a href="#">配镜</a>|<a href="#">教育培训</a>|<a href="#">亲子</a>|<a href="#">本地购物</a>|<a href="#">婚纱摄影</a>|<a href="#">证件照</a>|<a href="#">洗衣店</a><br /><a href="#">驾校/陪练</a>|<a href="#">宠物服务</a>|<a href="#">照片冲印</a>|<a href="#">租车</a>|<a href="#">服装定制</a><br /><a href="#">婚庆服务</a>|<a href="#">家政服务</a>|<a href="#">其他生活服务</a>
+							</p>
+						</div>						
+					</li>
+					<li>
+						<div class='li_main_outer'>
+							<div class='li_main'>
+							<span style="background-position:0 -303px"></span>
+							<dl>
+								<dt><a href="#">酒店</a></dt>
+								<dd><a href="#">北京</a></dd>
+								<dd><a href="#">上海</a></dd>
+								<dd><a href="#">广州</a></dd>
+							</dl>
+						</div>
+						</div>
+							
+					</li>
+					<li>
+						<div class='li_main_outer'>
+							<div class='li_main'>
+							<span style="background-position:0 -324px"></span>
+							<dl>
+								<dt><a href="#">旅游</a></dt>
+								<dd><a href="#">温泉洗浴</a></dd>
+								<dd><a href="#">景点郊游</a></dd>
+								<dd><a href="#">采摘</a></dd>
+							</dl>
+						</div>
+						</div>	
+						<div class='li_container'>
+							<p><a href="#">本地游/周边游</a> | <a href="#">景点郊游</a> | <a href="#">温泉洗浴</a> | <a href="#">采摘</a></p>
+						</div>	
+					</li>
+					<li>
+						<div class='li_main_outer'>
+							<div class='li_main noborder'>
+							<span style="background-position:0 -350px"></span>
+							<dl>
+								<dt><a href="#">丽人</a></dt>
+								<dd><a href="#">美发</a></dd>
+								<dd><a href="#">美容SPA</a></dd>
+								<dd><a href="#">美甲</a></dd>
+							</dl>
+						</div>
+						</div>				
+						<div class='li_container'>
+							<p><a href="#">化妆</a><a href="#">美甲</a><a href="#">美容SPA</a><a href="#">美发</a><a href="#">其他丽人</a></p>
+						</div>					
+					</li>
+				</ul>
+			</div>
+			<ul class="nav">
+				<span class="triangle"></span>
+				<li class="navIndex"><a href="#" >首页</a></li>
+				<li><a href="#">购物</a></li>
+				<li class="dy"><a href="#">电影</a><i class="ddyz"></i></li>
+				<li><a href="#">酒店</a></li>
+				<li><a href="#">今日新单</a></li>
+				<li><a href="#">外卖</a></li>	
+				<div>
+					<span>
+						<i class="pi1"></i>
+						<a href="#">下载手机版本</a> 
+					</span>
+					<div class='zuijinliulan'>
+						<span class="zuijin">
+							<a href="#">最近浏览</a> 
+							<i class="pi2"></i>
+						</span>
+						<div class="pi3">暂无浏览记录</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					$('.zuijinliulan').hover(function(){
+						$('.zuijin .pi2').css('display','none');
+						$('.nav div span.zuijin').css({'background':' #fff url(images/redtribg.png) no-repeat 3px 1px','border-top':'1px solid #ccc','margin-top':'-1px'});
+						$('.nav div span.zuijin a').css({'color':'#FF658E'});
+						$('.nav div .pi3').css({'display':'block'});
+					},function(){
+						$('.zuijin .pi2').css('display','inline-block');
+						$('.nav div span.zuijin').css({'background':'none','border':'none','margin':'0px'});
+						$('.nav div span.zuijin a').css({'color':'#fff'});
+						$('.nav div .pi3').css({'display':'none'});
+					});	
+				</script>
+			</ul>
+			<div  class="nav_down1">
+				<div class="nav_down1_l">
+					<div class="nav_down1_l_01">
+						<dl>
+							<dt>热门团购：</dt>
+							<dd><a href="#">电影</a></dd>
+							<dd><a href="#" class="pink">自助餐</a></dd>
+							<dd><a href="#">KTV</a></dd>
+							<dd><a href="#" class="pink">火锅</a></dd>
+							<dd><a href="#">蛋糕</a></dd>
+							<dd><a href="#" class="pink">酒店</a></dd>
+							<dd><a href="#">小吃</a></dd>
+							<dd><a href="#">快餐</a></dd>
+							<dd><a href="#">西餐</a></dd>
+							<dd><a href="#">川菜</a></dd>
+							<dd><a href="#" class="pink">家居家纺</a></dd>
+							<dd><a href="#">烧烤</a></dd>
+							<dd><a href="#">韩国料理</a></dd>
+						</dl>
+						<dl id="all_zone">
+							<span>
+								<i></i>
+								<i></i>
+							</span>
+							<dt>全部区域：</dt>
+							<dd><a href="#">地铁附近</a></dd>
+							<dd><a href="#">朝阳区</a></dd>
+							<dd><a href="#">海淀区</a></dd>
+							<dd><a href="#">丰台区</a></dd>
+							<dd><a href="#">西城区</a></dd>
+							<dd><a href="#">东城区</a></dd>
+							<dd><a href="#">昌平区</a></dd>
+							<dd><a href="#">通州区</a></dd>
+							<dd><a href="#">大兴区</a></dd>
+							<dd><a href="#">房山区</a></dd>
+							<dd><a href="#">顺义区</a></dd>
+							<dd class="marginL"><a href="#">石景山区</a></dd>
+							<dd><a href="#">怀柔区</a></dd>
+							<dd><a href="#">延庆县</a></dd>
+							<dd><a href="#">平谷区</a></dd>
+							<dd><a href="#">门头沟区</a></dd>
+							<dd><a href="#">密云县</a></dd>
+						</dl>
+						<dl class="hotbusinese">
+							<dt>热门商圈：</dt>
+							<dd><a href="#">五道口</a></dd>
+							<dd><a href="#">亚运村</a></dd>
+							<dd><a href="#">通州区</a></dd>
+							<dd><a href="#">望京</a></dd>
+							<dd><a href="#">五棵松</a></dd>
+							<dd><a href="#">中关村</a></dd>				
+							<dd><a href="#">崇文门</a></dd>
+							<dd><a href="#">北太平庄</a></dd>
+							<dd><a href="#">方庄</a></dd>
+							<dd><a href="#">上地</a></dd>
+							<dd><a href="#">万柳</a></dd>
+						</dl>
+						<script type="text/javascript">
+							$('#all_zone').hover(function(){
+								$('#all_zone').css({ 'height':'88px','background':'#fff',
+								'border':'1px solid #F3F3F3','position':'relative','top':'-1px','left':'-1px'});
+								$('#all_zone span i:nth-child(1)').css('visibility','hidden');
+								$('.hotbusinese').css('display','none');
+							},function(){ 
+										$('#all_zone').css({
+										'height':'44px','background':'#fafafa',
+										'border':'0','top':'0','left':'0','border-bottom':'1px solid #f3f3f3'});
+										$('#all_zone span i:nth-child(1)').css('visibility','visible');
+										$('.hotbusinese').css('display','block');
+							});
+						</script>
+					</div>
+					<div class="nav_down1_l_02">
+						<h3><span></span>本周精选</h3>
+						<div class="pic_play">
+							<span class='xiaoyuandian'>
+								<i class='cur'></i>
+								<i></i>
+								<i></i>
+							</span>
+							<div class='pic_play_in'>
+								<a href="#none"></a>
+								<a href="#none"></a>
+								<ul class="pic_play_box">
+									<li>
+										<div>
+											<img src='images/pic_play1_1.jpg' width='340' height='208' />
+											<div>
+												<h4>俏江南</h4>
+												<div>
+													<p>价值100元代金券！全球品质，中国气质！新派川菜，聚会宴请首选之地！</p>
+													<span>
+														<i>￥</i>75
+													</span>
+												</div>
+											</div>
+										</div>
+										
+										<div>
+											<img src='images/pic_play1_2.jpg' width='340' height='208' />
+											<div>
+												<h4>华住酒店集团</h4>
+												<div>
+													<p>超值礼包！数间酒店，高端大气，装修简洁时尚，设备齐全，服务贴心周到！</p>
+													<span>
+														<i>￥</i>3
+													</span>
+												</div>
+											</div>
+										</div>
+										
+										
+										
+									</li>							
+									<li>
+										<div>
+											<img src='images/pic_play2_1.jpg' width='340' height='208' />
+											<span class='redmoney'></span>
+											<div>
+												<h4>俏江南</h4>
+												<div>
+													<p>6人餐！精选食材，做工精良，绚丽菜品，醇香四溢，享受丰富大餐！</p>
+													<span>
+														<i>￥</i>1288
+													</span>
+												</div>
+											</div>
+										</div>
+										
+										<div>
+											<img src='images/pic_play2_2.jpg' width='340' height='208' />
+											<span class='redmoney'></span>
+											<div>
+												<h4>俏江南</h4>
+												<div>
+													<p>2人餐！节假日通用，交通便利，丰富菜品，经典美味，超值享受！</p>
+													<span>
+														<i>￥</i>398
+													</span>
+												</div>
+											</div>
+										</div>		
+									</li>
+									<li>
+										<div>
+											<img src='images/pic_play3_1.jpg' width='340' height='208' />
+											<span class='redmoney'></span>
+											<div>
+												<h4>俏江南</h4>
+												<div>
+													<p>8人餐！绚丽菜品，美食齐聚，享受丰富大餐，幸福在心底久久缠绕！</p>
+													<span>
+														<i>￥</i>1688
+													</span>
+												</div>
+											</div>
+										</div>
+										
+										<div>
+											<img src='images/pic_play3_2.jpg' width='340' height='208' />
+											<span class='redmoney'></span>
+											<div>
+												<h4>欢乐杰巴西烤肉</h4>
+												<div>
+													<p>单人自助餐！巴西特色烤肉，百余种美味任由选择！通州店和人大店通用！</p>
+													<span>
+														<i>￥</i>49
+													</span>
+												</div>
+											</div>
+										</div>
+										
+										
+										
+									</li>
+									<li>
+										<div>
+											<img src='images/pic_play1_1.jpg' width='340' height='208' />
+											<div>
+												<h4>俏江南</h4>
+												<div>
+													<p>价值100元代金券！全球品质，中国气质！新派川菜，聚会宴请首选之地！</p>
+													<span>
+														<i>￥</i>75
+													</span>
+												</div>
+											</div>
+										</div>
+										
+										<div>
+											<img src='images/pic_play1_2.jpg' width='340' height='208' />
+											<div>
+												<h4>华住酒店集团</h4>
+												<div>
+													<p>超值礼包！数间酒店，高端大气，装修简洁时尚，设备齐全，服务贴心周到！</p>
+													<span>
+														<i>￥</i>3
+													</span>
+												</div>
+											</div>
+										</div>
+										
+										
+										
+									</li>
+								</ul>
+							</div>
+							<span>
+								<i></i>
+								<i></i>
+								<i></i>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="nav_down1_r">
+					<div class='download_app'>
+					<a href="#"></a>
+					</div>
+					<div class='sidebar_picplay'>
+						<div>
+							<a href="#"><img src='images/side_bar_picplay1.jpg' width='210' height='190' /></a>
+							<a href="#"><img src='images/side_bar_picplay2.jpg' width='210' height='190' /></a>
+							
+						</div>
+						<span>
+							<i class='cur'></i>
+							<i></i>
+						</span>
+					</div>
+					<h3>热门专题</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id='content'>
+		<div class='content_left'>
+			<div class="up_bar">
+				<div class='up_bar_left'>
+					<p>
+						<span class='upbar_default'><a href="#">默认</a></span>
+						<span class='upbar_sale'><a href="#">销量</a>&nbsp;<b></b></span>
+						<span class='upbar_price'><a href="#">价格</a>&nbsp;<b></b></span>
+						<span class='upbar_discount'><a href="#">折扣</a>&nbsp;<b></b></span>
+						<span class='upbar_newpub'><a href="#">最新发布</a>&nbsp;<b></b></span>
+					</p>
+					<p>
+						<span class='mianyuyue'><em></em>&nbsp;<a href="#">免预约</a></span>
+						<span class='daijinquan'><em></em>&nbsp;<a href="#">代金券</a></span>
+						<span class='quanwangdijia'><em></em>&nbsp;<a href="#">全网低价</a><i></i></span>
+						
+					</p>
+				</div>
+				<div class='up_bar_right'>
+					<p>
+						<span><i></i>上一页</span>
+						<span><em>1</em>/459</span>
+						<span>下一页<i></i></span>
+					</p>
+				</div>			
+			</div>
+
+			<!--          主要内容开始              -->
+			<div class='content_con'>
+				<ul>
+					<!--   第一个9组   -->
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_01.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:五棵松</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【五棵松】耀莱成龙国际影城</span>
+								<span class='con_detail'>
+									五棵松店单人影票/卖品套餐/柠檬杯套餐3选1！含3D、巨幕厅，任何影片不补差价！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>31</span>
+									<span>价值 <del>¥90</del></span>
+								</span>
+								<span class='con_count'>
+									<b>698</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_02.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:顺义 石门</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【顺义】海涛汽车装饰城</span>
+								<span class='con_detail'>
+									洗车1次！专业洗车，细致、呵护您的爱车，让爱车由内而外，焕然一新，全新璀璨！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>10</span>
+									<span>价值 <del>¥30</del></span>
+								</span>
+								<span class='con_count'>
+									<b>279</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2 cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_03.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:五道口 中关村</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【五道口】美嘉欢乐影城</span>
+								<span class='con_detail'>
+									中关村店单人影票（含3D）！超清晰巨幕画质，另付25元可兑换一张巨幕影票！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>40</span>
+									<span>价值 <del>¥120</del></span>
+								</span>
+								<span class='con_count'>
+									<b>20</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_04.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:五道口 酒仙桥 双榆树 朝外大街 中关村 西单 王府井 东单 对外经贸 国贸 广渠门 万寿路 苏州桥 望京 亚运村 管庄…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【27店通用】巴黎贝甜</span>
+								<span class='con_detail'>
+									奶油蛋糕2号1个！全网最低8折购，百度糯米用户共享炎日冰点价！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>111</span>
+									<span>价值 <del>¥138</del></span>
+								</span>
+								<span class='con_count'>
+									<b>2808</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_05.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:西直门 北太平庄</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【西直门】圣鲸美食汇</span>
+								<span class='con_detail'>
+									单人自助！全国连锁，绚丽菜品，美味踏浪而来，午晚餐通用！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>39</span>
+									<span>价值 <del>¥68</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1571</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_06.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:西直门 北太平庄</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【全国】德芙</span>
+								<span class='con_detail'>
+									丝滑牛奶婚庆红双喜巧克力！送给心爱的TA！60块包邮！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>0.59</span>
+									<span>价值 <del>¥1.8</del></span>
+								</span>
+								<span class='con_count'>
+									<b>146565</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_07.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:苏州桥 万柳</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【苏州桥】新干线春天号自助烤肉</span>
+								<span class='con_detail'>
+									单人自助烤肉！保证食材新鲜，精心烹制菜肴，美味萦绕舌尖！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>46</span>
+									<span>价值 <del>¥68</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1866</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_08.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1_mian'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:六里桥 丽泽桥</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【六里桥】耀莱成龙国际影城</span>
+								<span class='con_detail'>
+									马连道店双人影票或食品套餐2选1！高端设备，极致享受，甜蜜约会好去处
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>49</span>
+									<span>价值 <del>¥160</del></span>
+								</span>
+								<span class='con_count'>
+									<b>99</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_09.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:安贞</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【安贞】歌华开元大酒店</span>
+								<span class='con_detail'>
+									自助晚餐！新鲜食材，环境优雅，服务周到，交通便利！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>99</span>
+									<span>价值 <del>¥228</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1185</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+
+					<!--   第二个9组   -->
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_10.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:劲松 潘家园</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【劲松】金釜山烤肉</span>
+								<span class='con_detail'>
+									单人自助餐！丰富菜品，优质选料，超值美味，独具特色，热情服务，舒适环境！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>39</span>
+									<span>价值 <del>¥49</del></span>
+								</span>
+								<span class='con_count'>
+									<b>33698</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_11.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:青年路 朝阳大悦城 姚家园</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【青年路】玫瑰花园自助烤肉</span>
+								<span class='con_detail'>
+									单人自助！环境优雅，菜品丰富，卓越品质，无与伦比，鲜香美味共分享！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>69</span>
+									<span>价值 <del>¥79</del></span>
+								</span>
+								<span class='con_count'>
+									<b>205</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2 cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_12.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:三元桥 魏公村 安贞 北下关 五道口 朝外大街 中关村 方庄 远大路 左家庄 国贸 北太平庄 万寿路 劲松 潘家园 上地 望京…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【40店通用】汉拿山</span>
+								<span class='con_detail'>
+									中关村店单人影票（含3D）！超清晰巨幕画质，另付25元可兑换一张巨幕影票！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>156</span>
+									<span>价值 <del>¥200</del></span>
+								</span>
+								<span class='con_count'>
+									<b>4420</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_13.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b></b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【全国】赣南脐橙</span>
+								<span class='con_detail'>
+									正宗赣南75mm以上脐橙5斤！人工采摘，最快发货 ！包邮！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>23</span>
+									<span>价值 <del>¥65</del></span>
+								</span>
+								<span class='con_count'>
+									<b>22108</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_14.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:三元桥 上地 五棵松 万柳 霄云路</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【4店通用】橙天嘉禾影城</span>
+								<span class='con_detail'>
+									单人影票（含3D）！专业影音放映，尊享视听盛宴，地理位置优越，繁华商圈！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>33</span>
+									<span>价值 <del>¥120</del></span>
+								</span>
+								<span class='con_count'>
+									<b>26541</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_15.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide '>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:亮马桥 朝阳公园 蓝色港湾 农展馆</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【亮马桥】情歌汗蒸</span>
+								<span class='con_detail'>
+									燕莎店汗蒸淋浴套餐！舒缓身心，缓解疲劳，带给你内外合一的美丽！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>8.5</span>
+									<span>价值 <del>¥99</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1598</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_16.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1_xuan'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:西直门 丽泽桥 北太平庄 潘家园 苏州桥 望京 建国门 北京站 顺义 五棵松 回龙观 首都机场 房山 亦庄 平谷 崇文门 梨园…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【29店通用】金百万烤鸭店</span>
+								<span class='con_detail'>
+									价值100元全场通用代金券！经典烤鸭美味，可累积使用，开始为团聚那一天准备吧！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>81</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>9023</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_17.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur3'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur3'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:六里桥 丽泽桥 望京 回龙观 房山 崇文门 鲁谷 高碑店 传媒大学</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【8店通用】奇乐儿儿童主题公园</span>
+								<span class='con_detail'>
+									儿童单人券，糯米粉儿独享欢乐亲子嘉年华，全北京店通兑！冬季宝宝出游好去处！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>69</span>
+									<span>价值 <del>¥230</del></span>
+								</span>
+								<span class='con_count'>
+									<b>8299</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_18.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:黄村</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【黄村】彼尔森啤酒健康自助烤肉</span>
+								<span class='con_detail'>
+									大兴店单人烤肉自助午餐！原汁原味，精心烹饪，服务周到，欢迎到来！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>52</span>
+									<span>价值 <del>¥65</del></span>
+								</span>
+								<span class='con_count'>
+									<b>3385</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+
+					<!--   第三个9组   -->
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_19.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:五道口 酒仙桥 双榆树 朝外大街 中关村 西单 王府井 东单 对外经贸 国贸 广渠门 万寿路 苏州桥 望京 亚运村 管庄…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【27店通用】巴黎贝甜</span>
+								<span class='con_detail'>
+									蛋糕4选1！美味蛋糕，欢乐畅享！巴甜贝甜全网低折购，畅享炎日冰点价！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>16.5</span>
+									<span>价值 <del>¥20</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1096</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_20.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:十里堡 八里庄 四惠 甜水园 慈云寺</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【十里堡】耀莱成龙国际影城</span>
+								<span class='con_detail'>
+									慈云寺店单人影票！另付5元可看3D！劲爆低价疯狂来袭，不补差价
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>25</span>
+									<span>价值 <del>¥90</del></span>
+								</span>
+								<span class='con_count'>
+									<b>105</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2 cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_21.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:亮马桥 三元桥 广外大街 五道口 酒仙桥 双榆树 朝外大街 中关村 方庄 西单 远大路 王府井 东单 西直门 左家庄 国贸…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【多店通用】和合谷</span>
+								<span class='con_detail'>
+									价值20元代金券！全场正价菜品通用，马年鸿运，马上开饭！京津冀79店通用！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>15.8</span>
+									<span>价值 <del>¥20</del></span>
+								</span>
+								<span class='con_count'>
+									<b>8686</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_22.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur3'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:中关村 远大路 王府井 东单 望京 昌平镇 顺义 回龙观 大望路 黄村 天通苑 万柳 西红门 生命科学园</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【13店通用】乐食派麻辣香锅</span>
+								<span class='con_detail'>
+									价值100元全场通用代金券，京津沪庆4城26店震撼登场，爱上麻辣香锅，做个乐食派
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>80</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>10102</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_23.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:房山</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【房山】汉丽轩</span>
+								<span class='con_detail'>
+									城关店单人午餐自助！环境优雅，特色烤肉，优质肉品，肉质鲜嫩，价格实惠！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>39</span>
+									<span>价值 <del>¥49</del></span>
+								</span>
+								<span class='con_count'>
+									<b>376</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_24.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur3'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:魏公村 北下关 六里桥 丽泽桥 安定门 劲松 苏州桥 阜成门 昌平镇 航天桥 回龙观 管庄 草桥 天通苑 什刹海 通州区…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【12店通用】好伦哥</span>
+								<span class='con_detail'>
+									精品单人自助餐！全新比萨自助，数十款美味任挑任选，1米（不含）以下儿童免费！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>48</span>
+									<span>价值 <del>¥56</del></span>
+								</span>
+								<span class='con_count'>
+									<b>37770</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_25.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b></b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【全国】三只松鼠</span>
+								<span class='con_detail'>
+									价值100元全场通用代金券！经典烤鸭美味，可累积使用，开始为团聚那一天准备吧！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>81</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>9023</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_26.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:劲松 北京欢乐谷</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【8店通用】奇乐儿儿童主题公园</span>
+								<span class='con_detail'>
+									儿童单人券，糯米粉儿独享欢乐亲子嘉年华，全北京店通兑！冬季宝宝出游好去处！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>35</span>
+									<span>价值 <del>¥80</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1569</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_27.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:亚运村 小营</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【亚运村】鼎极轩烤肉火锅自助</span>
+								<span class='con_detail'>
+									单人自助餐！食材新鲜，卫生健康、服务一流、交通便利！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>65</span>
+									<span>价值 <del>¥75</del></span>
+								</span>
+								<span class='con_count'>
+									<b>4153</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+
+					<!--   第四个9组   -->
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_28.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur3'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:魏公村 双榆树 苏州桥 梨园 通州区 果园 九棵树</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【2店通用】欢乐杰巴西烤肉</span>
+								<span class='con_detail'>
+									单人自助餐！巴西特色烤肉，百余种美味任由选择！通州店和人大店通用！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>46</span>
+									<span>价值 <del>¥53</del></span>
+								</span>
+								<span class='con_count'>
+									<b>14598</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_29.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:公主坟 万寿路 航天桥</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【公主坟】中央电视塔空中旋转餐厅</span>
+								<span class='con_detail'>
+									周末自助午餐+中央电视塔观光+塔下海底世界门票！全年美食节活动不断更新
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>199</span>
+									<span>价值 <del>¥228</del></span>
+								</span>
+								<span class='con_count'>
+									<b>5078</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2 cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_30.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:沙子口 木樨园</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【多城市】世纪开元网上冲印</span>
+								<span class='con_detail'>
+									60张照片冲印套餐！手感舒适，珍藏回忆，质感一流！其他城市可免费配送！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>18</span>
+									<span>价值 <del>¥83</del></span>
+								</span>
+								<span class='con_count'>
+									<b>7768</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_31.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:望京 昌平镇 亦庄 清河 延庆县 马驹桥</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【5店通用】大地数字影院</span>
+								<span class='con_detail'>
+									单人影票（含3D）！极致视听盛宴，完善影音设备，非凡观影体验！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>27</span>
+									<span>价值 <del>¥50</del></span>
+								</span>
+								<span class='con_count'>
+									<b>10108</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_32.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:三元桥 北下关 双榆树 朝外大街 中关村 远大路 王府井 东单 西直门 左家庄 六里桥 国贸 万寿路 劲松 苏州桥 双井 望京…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【23店通用】西贝莜面村</span>
+								<span class='con_detail'>
+									价值100元全场通用代金券！8人以上可使用包间！烹制简单，调味单纯，绿色健康
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>84</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>3154</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_33.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:三元桥 魏公村 安贞 北下关 双榆树 和平里 东单 西直门 左家庄 北太平庄 劲松 潘家园 苏州桥 上地 三里屯 阜成门…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【25店通用】东方饺子王</span>
+								<span class='con_detail'>
+									双人套餐！环境雅致舒适，优质选材，色味俱佳，沁人心脾，让人欲罢不能！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>56</span>
+									<span>价值 <del>¥78</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1768</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_34.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:酒仙桥 亚运村 鸟巢</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【2店通用】CGV星星国际影城</span>
+								<span class='con_detail'>
+									单人影票（含3D）！奢华进口设备，震撼视听享受，刺激你的眼球，交通便利
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>38</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>28229</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_35.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur3'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:远大路 万柳</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【远大路】金源福城肥牛</span>
+								<span class='con_detail'>
+									远大路店4人套餐！精选原料，特色锅底，丰富菜品，特制调料！节假日通用！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>178</span>
+									<span>价值 <del>¥370</del></span>
+								</span>
+								<span class='con_count'>
+									<b>572</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_36.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur3'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:北太平庄 虎坊桥 苏州桥 五棵松 菜市口 万柳 苏州街</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【4店通用】陈阿婆鱼火锅</span>
+								<span class='con_detail'>
+									4人套餐！连锁品牌，3种套餐任选，荤素搭配，营养美味，分享滋味难以抵挡！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>84</span>
+									<span>价值 <del>¥293</del></span>
+								</span>
+								<span class='con_count'>
+									<b>89891</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+
+					<!--   第五个9组   -->
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_37.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:魏公村 双榆树 苏州桥 梨园 通州区 果园 九棵树</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【全国】泰纳果园</span>
+								<span class='con_detail'>
+									山东沾化特产富晒冬枣1斤！新鲜现货，5份顺丰包邮！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>5.9</span>
+									<span>价值 <del>¥28.9</del></span>
+								</span>
+								<span class='con_count'>
+									<b>285998</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_38.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur3'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur3'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:望京 三里屯 亚运村 青塔 北苑家园 鸟巢 大屯 工体 立水桥 小营</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【7店通用】棒约翰比萨</span>
+								<span class='con_detail'>
+									超值套餐！优质原料，美味独享，做快乐吃货，美味不错过，享受好心情！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>55</span>
+									<span>价值 <del>¥58</del></span>
+								</span>
+								<span class='con_count'>
+									<b>105</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2 cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_39.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:劲松 潘家园</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【劲松】金釜山烤肉</span>
+								<span class='con_detail'>
+									劲松店单人自助晚餐！菜品升级，美味可口，环境宽敞明亮，热情服务！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>44</span>
+									<span>价值 <del>¥53</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1208</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_40.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur3'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:王府井 东单 亚运村 顺义 亦庄 旧宫 小营</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【4店通用】旺顺阁鱼头泡饼店</span>
+								<span class='con_detail'>
+									价值100元代金券！新鲜食材，滋味浓郁，色香味俱全，不可多得的美味！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>75</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>5108</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_41.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:亚运村 鸟巢</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【亚运村】北京剧院</span>
+								<span class='con_detail'>
+									单人影票（含3D）！震撼银幕效果，带你遨游光影时空，开启奇妙视听之旅！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>25</span>
+									<span>价值 <del>¥80</del></span>
+								</span>
+								<span class='con_count'>
+									<b>9122</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_42.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:苹果园 模式口</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【房山】汉丽轩</span>
+								<span class='con_detail'>
+									城关店单人午餐自助！环境优雅，特色烤肉，优质肉品，肉质鲜嫩，价格实惠！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>39</span>
+									<span>价值 <del>¥49</del></span>
+								</span>
+								<span class='con_count'>
+									<b>368</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_43.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:酒仙桥 亚运村 鸟巢</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【全国】费列罗</span>
+								<span class='con_detail'>
+									T16进口巧克力精美礼盒！节日礼物，情人节礼品！包邮！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>39</span>
+									<span>价值 <del>¥69</del></span>
+								</span>
+								<span class='con_count'>
+									<b>787</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_44.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1_mian'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:三元桥 五道口 双榆树 朝外大街 中关村 方庄 西单 王府井 东单 西直门 左家庄 国贸 北太平庄 公主坟 万寿路 苏州桥…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【48店通用】真功夫</span>
+								<span class='con_detail'>
+									冬（香）菇鸡腿肉饭+香滑蒸蛋！连锁中式快餐，美味套餐，超值实惠！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>13</span>
+									<span>价值 <del>¥19</del></span>
+								</span>
+								<span class='con_count'>
+									<b>6582</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_45.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:五道口 酒仙桥 中关村 方庄 西单 虎坊桥 新街口 安定门 劲松 潘家园 双井 东四 广内大街 建国门 北京站 亚运村 顺义…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【29店通用】85度c</span>
+								<span class='con_detail'>
+									价值20元代金券！甄选健康原料，精致烘焙，秉持品质至上！交通十分便利！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>18.4</span>
+									<span>价值 <del>¥20</del></span>
+								</span>
+								<span class='con_count'>
+									<b>5821</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+
+					<!--   第六个9组   -->
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_46.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:朝外大街</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【朝外大街】紫光影城</span>
+								<span class='con_detail'>
+									单人影票（含3D）！大片云集，享受震撼视听盛宴！赠送5元爆米花代金券！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>21</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>45608</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_47.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:望京 三里屯 亚运村 青塔 北苑家园 鸟巢 大屯 工体 立水桥 小营</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【全国】新疆阿克苏冰糖心苹果</span>
+								<span class='con_detail'>
+									超值套餐！优质原料，美味独享，做快乐吃货，美味不错过，享受好心情！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>55</span>
+									<span>价值 <del>¥58</del></span>
+								</span>
+								<span class='con_count'>
+									<b>105</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2 cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_48.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:北苑家园</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【北苑家园】K酷国际影城</span>
+								<span class='con_detail'>
+									单人影票（含3D），海量新片抢鲜看，3D眼镜无需押金，节假日通用！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>35.5</span>
+									<span>价值 <del>¥120</del></span>
+								</span>
+								<span class='con_count'>
+									<b>45798</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_49.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:三元桥 安贞 朝外大街 方庄 对外经贸 苏州桥 望京 昌平镇 梨园 紫竹桥 通州区 公益西桥 马家堡 万柳 霄云路 世贸天阶…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【12店通用】香草香草云南原生态火锅</span>
+								<span class='con_detail'>
+									价值100元代金券！丰富菜品，地道口味，云南美食，诱人滋味！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>71.2</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>12139</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_50.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:方庄 新街口 安定门 劲松 沙子口 三里屯 十八里店 十里堡 亦庄 洋桥 木樨园 右安门 黄村 新华大街 开阳里 天坛 刘家窑…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【14店通用】魏家凉皮</span>
+								<span class='con_detail'>
+									价值30元代金券！优质的食物，绝对让你吃的过瘾，快来这里享受丰盛的美食吧！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>19.9</span>
+									<span>价值 <del>¥30</del></span>
+								</span>
+								<span class='con_count'>
+									<b>722</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_51.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1_xuan'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:前门</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【前门】咔咔3D奇幻艺术体验馆</span>
+								<span class='con_detail'>
+									单人票！视觉冲击，新奇感受，立体效果，经典艺术！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>42.7</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>508</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_52.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:西直门 北太平庄</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【西直门】金釜山烤肉</span>
+								<span class='con_detail'>
+									西直门店单人自助！菜品新鲜更健康，品类齐全！到店另付3元可升级为自助晚餐！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>39.9</span>
+									<span>价值 <del>¥62</del></span>
+								</span>
+								<span class='con_count'>
+									<b>5761</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_53.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:梨园 通州区</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【梨园】汉宁苑自助烤肉</span>
+								<span class='con_detail'>
+									单人自助烤肉晚餐！ 上百种各色美食，正宗韩式烤肉，独具特色，舒适环境！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>46.5</span>
+									<span>价值 <del>¥55</del></span>
+								</span>
+								<span class='con_count'>
+									<b>5063</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>				
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_54.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:五道口 酒仙桥 中关村 方庄 西单 虎坊桥 新街口 安定门 劲松 潘家园 双井 东四 广内大街 建国门 北京站 亚运村 顺义…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【全国】武氏蟹业</span>
+								<span class='con_detail'>
+									阳澄湖大闸蟹母蟹/公蟹任选！现捕顺丰发货，10只包邮 ！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>9.9</span>
+									<span>价值 <del>¥78</del></span>
+								</span>
+								<span class='con_count'>
+									<b>59769</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+
+					<!--   第七个9组   -->
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_55.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:大钟寺</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【大钟寺】新华国际影城</span>
+								<span class='con_detail'>
+									影票或卖品套餐2选1！可提前电话选座，所有影片无需补差！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>36</span>
+									<span>价值 <del>¥90</del></span>
+								</span>
+								<span class='con_count'>
+									<b>7882</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_56.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:六里桥 丽泽桥</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【六里桥】乌苏里江野生江鱼村</span>
+								<span class='con_detail'>
+									六里桥店单人自助！新鲜食材，丰盛菜品，无法抵挡的美味诱惑，美味等你来享！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>45.6</span>
+									<span>价值 <del>¥58</del></span>
+								</span>
+								<span class='con_count'>
+									<b>665</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2 cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_57.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:北苑家园</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>暖身暖胃</span>
+								<span class='con_detail'>
+									暖身暖胃，任性一冬！今年最后的暖冬特惠，保暖养生1折起！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u></u></span>
+									<span> <del></del></span>
+								</span>
+								<span class='con_count'>
+									<b></b>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_58.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:三元桥 安贞 朝外大街 方庄 对外经贸 苏州桥 望京 昌平镇 梨园 紫竹桥 通州区 公益西桥 马家堡 万柳 霄云路 世贸天阶…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>美丽湾</span>
+								<span class='con_detail'>
+									东南亚“小鲜肉”来袭！零食特产，水果咖啡，让你吃不完兜着走！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u></u></span>
+									<span> <del></del></span>
+								</span>
+								<span class='con_count'>
+									<b></b>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_59.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:方庄 新街口 安定门 劲松 沙子口 三里屯 十八里店 十里堡 亦庄 洋桥 木樨园 右安门 黄村 新华大街 开阳里 天坛 刘家窑…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>每周精选</span>
+								<span class='con_detail'>
+									糯米为您精挑细选，每周送上优质商品！9.9就包邮，小伙伴都惊呆了！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u></u></span>
+									<span><del></del></span>
+								</span>
+								<span class='con_count'>
+									<b></b>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_60.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:崇文门</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【崇文门】搜秀影城</span>
+								<span class='con_detail'>
+									单人电影票（含3D）！不限时间段！节假日通兑！热档电影火爆开演！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>36</span>
+									<span>价值 <del>¥120</del></span>
+								</span>
+								<span class='con_count'>
+									<b>15297</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_61.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:马家堡</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【马家堡】峡谷达人</span>
+								<span class='con_detail'>
+									游戏币50枚！挥别压力与烦恼，给平淡生活增添无限欢乐！全场通兑，节假日通用！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>18.8</span>
+									<span>价值 <del>¥50</del></span>
+								</span>
+								<span class='con_count'>
+									<b>19062</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_62.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:梨园 通州区</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>俞兆林vs艾沙利</span>
+								<span class='con_detail'>
+									俞兆林vs艾沙利——品牌相约，浪漫升级，勾搭有优惠！全场低至一折起！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u></u></span>
+									<span><del></del></span>
+								</span>
+								<span class='con_count'>
+									<b></b>
+								</span>
+							</span>
+						</a>
+					</li>				
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_63.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:五道口 酒仙桥 中关村 方庄 西单 虎坊桥 新街口 安定门 劲松 潘家园 双井 东四 广内大街 建国门 北京站 亚运村 顺义…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>膳魔师</span>
+								<span class='con_detail'>
+									THERMOS膳魔师！百年品牌！顶级保温！百年不遇超低价！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u></u></span>
+									<span><del></del></span>
+								</span>
+								<span class='con_count'>
+									<b></b>
+								</span>
+							</span>
+						</a>
+					</li>
+					
+					<!--   第八个9组   -->
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_64.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:魏公村 双榆树 苏州桥 梨园 通州区 果园 九棵树</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>北极绒遇上南极人</span>
+								<span class='con_detail'>
+									2014秋冬新品发布，北极绒遇上南极人，拉开2014内衣大战！全场19.9起包邮
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u></u></span>
+									<span><del></del></span>
+								</span>
+								<span class='con_count'>
+									<b></b>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2 '>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_65.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:沙子口 木樨园</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>凡戈</span>
+								<span class='con_detail'>
+									凡戈男装品牌团，满299包顺丰！还有高档围巾1元秒杀等你抢！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u></u></span>
+									<span> <del></del></span>
+								</span>
+								<span class='con_count'>
+									<b></b>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_66.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:公主坟 万寿路 航天桥</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>定邦</span>
+								<span class='con_detail'>
+									冬季健康，定邦护航！定邦营养保健专场，低至1折起！买一还赠一！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u></u></span>
+									<span><del></del></span>
+								</span>
+								<span class='con_count'>
+									<b></b>
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li class='con_item cur2'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_67.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur2'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:望京 昌平镇 亦庄 清河 延庆县 马驹桥</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>杂志团购</span>
+								<span class='con_detail'>
+									时尚大刊/人物/财经杂志“大惠聚”！糯米独家，低于5折疯抢！团购知识，团购品味！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u></u></span>
+									<span><del></del></span>
+								</span>
+								<span class='con_count'>
+									<b></b>
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_68.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide '>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:五道口</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>	
+									【五道口】嘉华国际影城
+								</span>
+								<span class='con_detail'>
+									学清路店单人影票！赠送食品优惠券1张，到店另付5元可升级为3D影票！节假日通兑！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>28.5</span>
+									<span>价值 <del>¥80</del></span>
+								</span>
+								<span class='con_count'>
+									<b>56569</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_69.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:亚运村 回龙观 小营</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【2店通用】渡娘火锅</span>
+								<span class='con_detail'>
+									价值100元代金券！正宗川味火锅！养生汤方、健康食材，继承蜀地辣艺文化！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>64.6</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>3327</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_70.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:木樨园 刘家窑</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【木樨园】鑫海汇海鲜烤肉自助</span>
+								<span class='con_detail'>
+									崇文门大街店单人门票！3D艺术画展+体感游戏，超现实的立体感，融合科技与文化！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>55</span>
+									<span>价值 <del>¥79</del></span>
+								</span>
+								<span class='con_count'>
+									<b>809</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_71.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur3'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:崇文门</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【崇文门】3D错觉艺术馆+体感游戏</span>
+								<span class='con_detail'>
+									崇文门大街店单人门票！3D艺术画展+体感游戏，超现实的立体感，融合科技与文化！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>55</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>6203</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_72.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:方庄 刘家窑 大红门</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【方庄】汉丽轩</span>
+								<span class='con_detail'>
+									宋家庄店单人自助午餐！优质食材，精心烹调，荤素搭配，独具风味的新鲜口感！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>39</span>
+									<span>价值 <del>¥49</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1341</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+
+					<!--   第九个9组   -->
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_73.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur3'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:五道口 中关村 对外经贸 北太平庄 苏州桥 东四 三里屯 亚运村 颐和园 复兴门 香山 工体 甜水园 知春路 苏州街</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【13店通用】雕刻时光咖啡馆</span>
+								<span class='con_detail'>
+									价值50元通用代金券！轻松氛围，美味浓郁，幽雅环境，带来无限美好生活！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>32.5</span>
+									<span>价值 <del>¥50</del></span>
+								</span>
+								<span class='con_count'>
+									<b>29039</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2 '>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_74.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:三元桥 方庄 西单 远大路 东单 西直门 劲松 双井 望京 黄村 清河 崇文门 宣武门 万柳 分钟寺 成寿寺 霄云路</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【12店可选】仙踪林</span>
+								<span class='con_detail'>
+									新品茶4选1！暮色与柔脂交汇，青嫩与沐阳初遇！恋茶一杯！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>12</span>
+									<span>价值 <del>¥28</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1522</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_75.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:管庄 通州区 传媒大学 双桥</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【管庄】金逸影城</span>
+								<span class='con_detail'>
+									普通厅单人影票（含3D）！舒适的座椅，先进的放映设备
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>34.2</span>
+									<span>价值 <del>¥110</del></span>
+								</span>
+								<span class='con_count'>
+									<b>7658</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li class='con_item cur2'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_76.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:三元桥 魏公村 广外大街 安贞 北下关 五道口 酒仙桥 和平里 中关村 东单 西直门 对外经贸 左家庄 国贸 北太平庄 虎坊桥…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【43店通用】宏状元</span>
+								<span class='con_detail'>
+									价值50元通用代金券！你最爱的邻家餐厅，京城粥界佼佼者，精心烹制，一举天下知！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>40</span>
+									<span>价值 <del>¥50</del></span>
+								</span>
+								<span class='con_count'>
+									<b>11980</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_77.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide '>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:甜水园</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>	
+									【甜水园】朝阳剧场
+								</span>
+								<span class='con_detail'>
+									电影票1张，2D/3D通兑，赠送矿泉水一瓶，免费停车3小时，节假日通用！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>19.9</span>
+									<span>价值 <del>¥60</del></span>
+								</span>
+								<span class='con_count'>
+									<b>6126</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_78.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:甜水园</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【甜水园】羊大爷涮肉</span>
+								<span class='con_detail'>
+									道家园店价值100元代金券！新鲜菜品，滋味正宗，口味独特，回味无穷！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>83</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1027</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_79.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:五道口 双榆树 中关村 西单 西直门 三里屯 十里堡 朝阳公园 团结湖 清河 崇文门 大钟寺 四惠 姚家园 农展馆 知春路…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【10店通用】麻辣诱惑 </span>
+								<span class='con_detail'>
+									4人套餐！特色菜品,麻辣口味！使人思之垂涎，欲罢不能！优质服务！环境舒适优雅！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>190</span>
+									<span>价值 <del>¥309</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1955</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_80.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:魏公村 五道口 中关村 西单 远大路 国贸 万寿路 苏州桥 沙子口 上地 亚运村 地安门 木樨园 刘家窑 什刹海 马家堡 万柳…</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【15店通用】果麦</span>
+								<span class='con_detail'>
+									单品饮品！让舌尖体验百味，做快乐吃货，美味不错过，享受好心情！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>6</span>
+									<span>价值 <del>¥12</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1628</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_81.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:上地</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【上地】汉釜宫韩式烤肉自助</span>
+								<span class='con_detail'>
+									上地店午/晚餐单人自助，秘制配料，原汁原味！所有菜品不限量供应！节假日通用！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>37.8</span>
+									<span>价值 <del>¥59</del></span>
+								</span>
+								<span class='con_count'>
+									<b>991</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+
+					<!--   第十个9组   -->
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_82.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur3'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:崇文门</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【崇文门】便宜坊烤鸭店</span>
+								<span class='con_detail'>
+									价值100元新世界店代金券！独树一帜的焖炉烤鸭，缔造京城美味传奇！可叠加使用
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>76</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>2138</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur2 '>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_83.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide '>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:北大地</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【北大地】好伦哥</span>
+								<span class='con_detail'>
+									单人自助！味道丰富、鲜香自然、余香满口、回味悠长！  
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>48.4</span>
+									<span>价值 <del>¥56</del></span>
+								</span>
+								<span class='con_count'>
+									<b>1012</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_84.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:梨园 通州区</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【梨园】汉丽轩</span>
+								<span class='con_detail'>
+									梨园店单人烤肉自助午餐！节假日通用！甄选健康食材，丰富菜品，不限量供应！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>42</span>
+									<span>价值 <del>¥55</del></span>
+								</span>
+								<span class='con_count'>
+									<b>3638</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>					
+					<li class='con_item cur2'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_85.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:梨园 通州区</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【梨园】汉宁苑自助烤肉</span>
+								<span class='con_detail'>
+									自助烤肉午餐！300余款丰盛美食，奢华享受，美味不停口，服务高质！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>40</span>
+									<span>价值 <del>¥49</del></span>
+								</span>
+								<span class='con_count'>
+									<b>2980</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_86.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide '>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:中关村 北京大学</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>	
+									【中关村】电玩头等舱
+								</span>
+								<span class='con_detail'>
+									游戏币100枚！街机、赛车、篮球、打鼓机、跳舞机、抓娃娃，随到随玩！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>8.36</span>
+									<span>价值 <del>¥200</del></span>
+								</span>
+								<span class='con_count'>
+									<b>7511</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_87.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1_xuan'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:五道口 双榆树 中关村 西单 对外经贸 国贸 苏州桥 亚运村 崇文门 青年路 朝阳大悦城 小营</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【8店通用】美联社</span>
+								<span class='con_detail'>
+									欧莱雅美发套餐，烫/染任选，多城联动，资深技术，发随心动，开启美发新时代！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>169</span>
+									<span>价值 <del>¥1440</del></span>
+								</span>
+								<span class='con_count'>
+									<b>8883</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_88.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide '>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:万寿路</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>
+									【万寿路】汉丽轩
+								</span>
+								<span class='con_detail'>
+									公主坟店单人自助晚餐！食材丰富，精选优质新鲜食材，多种选择，回味无穷！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>49</span>
+									<span>价值 <del>¥59</del></span>
+								</span>
+								<span class='con_count'>
+									<b>855</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_89.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur1'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:花乡</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【花乡】优尔自助烤肉</span>
+								<span class='con_detail'>
+									单人自助午餐！位置优越，价格实惠，服务周到！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>42</span>
+									<span>价值 <del>¥55</del></span>
+								</span>
+								<span class='con_count'>
+									<b>686</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>
+					<li class='con_item cur'>
+						<a href="#">
+							<span class='con_img'>
+								<img src="images/con_item_90.jpg" alt="" width='320' height='195'/>
+							</span>
+							<span class='con_tag cur2'>
+								<i></i><i></i><i></i>
+							</span>
+							<span class='hide cur1'>
+								<span class='hide_black'></span>
+								<span class='con_location'>
+									<i></i><b>商圈:朝外大街 北太平庄 双井 亚运村 天通苑 苹果园 梨园 朝阳门 通州区 百子湾 石佛营 四惠 小营</b>
+								</span>
+							</span>
+							<span class='con_explain'>
+								<span class='con_title'>【13店通用】宽板凳老灶火锅</span>
+								<span class='con_detail'>
+									价值100元代金券！特制高大的桌凳，铁铜质锅，汤汁翻滚，感受巴渝文化魅力火锅！
+								</span>
+								<span class='con_price'>
+									<span class='con_value'><u>¥</u>88</span>
+									<span>价值 <del>¥100</del></span>
+								</span>
+								<span class='con_count'>
+									<b>991</b>人已团购
+								</span>
+							</span>
+						</a>
+					</li>	
+				</ul>
+			</div>
+			<!--          主要内容结束              -->
+		</div>
+		<div class='content_right'>
+			<ul class='hot'>
+				<li>
+					<h3>热辣火锅</h3>
+					<p>从嘴暖到心</p>
+					<span><b>2397266</b>人团购</span>
+				</li>
+				<li>
+					<h3>热映电影</h3>
+					<p>大片一网打尽</p>
+					<span><b>6762597</b>人团购</span>
+				</li>
+				<li>
+					<h3>K歌地带</h3>
+					<p>根本停不下来</p>
+					<span><b>2086135</b>人团购</span>
+				</li>
+				<li>
+					<h3>温泉洗浴</h3>
+					<p>想不到的舒服</p>
+					<span><b>651266</b>人团购</span>
+				</li>
+				<li>
+					<h3>便捷酒店</h3>
+					<p>到店就有房</p>
+					<span><b>2985586</b>人团购</span>
+				</li>
+			</ul>
+			<ul class='hot_ranking'>
+				<h3>热门排行榜</h3>
+				<li>
+					<div>
+						<img src="images/hot_ranking_1.jpg" width='210' height='138' />
+						<span class='rank_num'><em>1</em></span>
+					</div>
+					<div class='hot_rank_more'>
+						<p>【青年餐厅】价值100元全场通用代金券！券可叠加！</p>
+						<span class='tongji'>
+							<u>¥82</u>
+							<i>每天<b>11047</b>人团购</i>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="images/hot_ranking_2.jpg" width='210' height='138' />
+						<span class='rank_num'><em>2</em></span>
+					</div>
+					<div class='hot_rank_more'>
+						<p>【保利国际影城】单人影票（含3D）！全时段通兑</p>
+						<span class='tongji'>
+							<u>¥32</u>
+							<i>每天<b>1338</b>人团购</i>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="images/hot_ranking_3.jpg" width='210' height='138' />
+						<span class='rank_num'><em>3</em></span>
+					</div>
+					<div class='hot_rank_more'>
+						<p>【北京凯悦莱温泉会议中心】温泉单人票！中心娱乐设施齐备</p>
+						<span class='tongji'>
+							<u>¥98</u>
+							<i>每天<b>812</b>人团购</i>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="images/hot_ranking_4.jpg" width='210' height='138' />
+						<span class='rank_num'><em>4</em></span>
+					</div>
+					<div class='hot_rank_more'>
+						<p>【向阳坊】价值10元代金券！精湛的技艺！</p>
+						<span class='tongji'>
+							<u>¥7.9</u>
+							<i>每天<b>776</b>人团购</i>
+						</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="content_footer">
+			<p class='count'>共<em>41496</em>条/每页90条</p>
+			<ul class='page'>
+				<li class='cur'>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>
+				<li>8</li>
+				<li>9</li>
+				<li>10</li>
+				<li class='fw_btn'>
+					<span></span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer_wrap">
+		<div class='footer'>
+			<ul class='footer_main'>
+				<li>
+					<h3>用户帮助</h3>
+					<p><a href="#">常见团购问题</a></p>
+					<p><a href="#">开放API</a></p>
+				</li>
+				<li>
+					<h3>手机百度糯米</h3>
+					<p><a href="#">百度糯米触屏版</a></p>
+					<p><a href="#">下载手机版</a></p>
+				</li>
+				<li>
+					<h3>商务合作</h3>
+					<p><a href="#">友情链接</a></p>
+					<p><a href="#">市场合作</a></p>
+				</li>
+				<li>
+					<h3>公司信息</h3>
+					<p><a href="#">关于百度糯米</a></p>
+					<p><a href="#">百度糯米新浪微博</a></p>
+					<p><a href="#">人人网公共主页</a></p>
+					<p><a href="#">廉政反馈</a></p>
+				</li>
+				<li class='last'>
+					<h3 class='pink'>4006-888-887</h3>
+					<p>
+						客服电话 免长途费 &nbsp; 周一至周日 9:00-22:00
+					</p>
+					<p class='phone'></p>
+				</li>
+			</ul>
+			<div class="footer_pic">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="footer_copy">
+				<p>
+					<span>©2014 nuomi.com</span> 
+				    <a href="#">京ICP证060807号京公网安备</a> 京公网安备11010802014106号 工商注册号110000450203508 
+					<a href="#">互联网药品信息服务资格证编号（京-经营性-2011-0009）</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src='js/my.js'></script>
+</body>
+</html>
