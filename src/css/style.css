@@ -33,8 +33,8 @@ a:hover{text-decoration:underline;}
 .topBar a{color:#73ABC9;} 
 .topBar_left{float:left;}
 .topBar_right{float:right;width:285px;} 
-.topBar_right div{display:inline-block;position:relative;}
-.topBar_right div ul{position:absolute;left:-6px;width:70px;background:#fff;padding:0 15px 0 6px;z-index:999;border:1px solid #dfdfdf;display:none;}
+.topBar_right div{display:inline-block;position:relative;padding: 0 5px;}
+.topBar_right div ul{position:absolute;left:-6px;width:70px;background:#fff;padding:0 15px 0 10px;z-index:999;border:1px solid #dfdfdf;display:none;}
 .topBar_right div ul a{color:#666;}
 a.col_pr{color:#FE5985;}
 .topBar_right div ul a:hover{color:#4AA3FE!important;}
@@ -252,6 +252,7 @@ position:absolute; z-index:9;display:none;}
 	position:relative;
 }
 .pic_play_box>li>div.cur{border:1px solid #ccc;border-bottom:2px solid pink;margin-left:-1px;margin-right:-1px;margin-top:-1px;}
+.pic_play_box>li>div.cur>div{border:none; padding:10px 17px 0;}
 .redmoney{width:47px;height:31px;
 	position:absolute;top:-4px;left:10px;background:url(../images/redpaper.png) center center no-repeat;}
 .pic_play_box li{
@@ -430,12 +431,12 @@ position:absolute; z-index:9;display:none;}
 
 .count{display: block;height:22px;line-height:22px;margin:18px 0 0 20px;font-size: 14px;}
 .count em{font-style: normal;color: #FE6699;}
-.page{width:410px;background:red;margin:30px auto 0;color: #3e3e3e;}
-.page li{height:28px;padding:0 8px;float: left;font-size: 14px;line-height: 28px;margin-right: 10px; border:1px solid #eee;background: #fff;font-family: 'arial';color:#999;}
+.page{width: 420px;background:red;margin:30px auto 0;color: #3e3e3e;}
+.page li{text-align: center;width: 25px;height:28px;float: left;font-size: 14px;line-height: 28px;margin-right: 10px; border:1px solid #eee;background: #fff;font-family: 'arial';color:#999;}
 .page li.cur{border:1px solid #666;}
 .page li:hover{border:1px solid #FF6699;color:#FF6699;cursor: pointer;}
 .fw_btn{width:4px;position: relative;}
-.fw_btn span{width:4px;height:7px;position: absolute;top:11px;left:8px;background:url(../images/icon1.png) -17px -201px no-repeat;}
+.fw_btn span{width:4px;height:7px;position: absolute;top:11px;left:11px;background:url(../images/icon1.png) -17px -201px no-repeat;}
 .fw_btn:hover span{background-position: -17px -211px;}
 
 /*              footer section                   */
