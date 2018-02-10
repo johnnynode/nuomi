@@ -1,6 +1,6 @@
 # 百度糯米(nuomi)
 
-- 多年以前百度糯米的首页网页代码特效展示 (jquery 版本)
+- 多年以前模仿百度糯米的首页网页代码特效展示 (jquery 版本)
 
 ### 克隆(clone)
 
@@ -14,6 +14,10 @@
 
 - $ `gulp server`
 
-### 备注 (notes)
+### 构建(build)
 
-- 单页展示，未进行压缩混淆处理
+- $ `gulp build`
+
+### 构建后的生产模式(build)
+
+- $ `gulp build-server`
