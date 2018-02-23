@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+body {
+	font-size:12px;
+	font-family:"宋体";
+	color:#616161;
+	background:#fafafa;
+}
 #topBannerWrap {
 	height:89px;
 	width:100%;
@@ -460,9 +466,8 @@ a.col_pr {
 .nav .pi2 {
 	height:3px;
 	width:5px;
-	background:url(../images/whitetriangle.png);
+	background:url(../images/whitetriangle.png) no-repeat;
 	display:inline-block;
-	no-repeat;
 	position:relative;
 	top:-2px;
 	left:-2px;
