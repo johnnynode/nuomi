@@ -11,5 +11,5 @@
 ### 交互效果图
 
 <div align=center>
-  <img src="./pic/nuomi.jpg"/>d
+  <img src="./pic/nuomi.jpg"/>
 </div>
