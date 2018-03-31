@@ -177,7 +177,7 @@ $(function () {
 							var timer3 = setInterval(bannerPlay, speed3);
 
 							function bannerPlay() {
-									$('.topBanner a').eq(b_t).stop().fadeIn('2000').siblings().stop(true,true).fadeOut('2000');
+									$('.topBanner a').eq(b_t).stop(true,true).fadeIn('2000').siblings().stop(true,true).fadeOut('2000');
 									$('#topBannerWrap ol li').eq(b_t).addClass('cur').siblings().removeClass('cur');
 									b_t++;
 									if (b_t > 3) {
@@ -189,7 +189,7 @@ $(function () {
 							$('#topBannerWrap ol li').hover(function () {
 									clearInterval(timer3);
 									$(this).addClass('cur').siblings().removeClass('cur');
-									$('.topBanner a').eq($(this).index()).stop().fadeIn('2000').siblings().stop(true,true).fadeOut('2000');
+									$('.topBanner a').eq($(this).index()).stop(true,true).fadeIn('2000').siblings().stop(true,true).fadeOut('2000');
 							}, function () {
 									clearInterval(timer3);
 									timer3 = setInterval(bannerPlay, speed3);
@@ -238,7 +238,7 @@ $(function () {
 											$key = 1;
 											$('.pic_play_box').css('left', 0);
 									}
-									$('.pic_play_box').stop().animate({
+									$('.pic_play_box').stop(true,true).animate({
 											'left': -$key * $('.pic_play_box li').width()
 									}, ani_speed);
 									//小圆点的轮播
@@ -262,7 +262,7 @@ $(function () {
 									clearInterval(timer1);
 									$(this).addClass('cur').siblings().removeClass('cur');
 
-									$('.pic_play_box').stop().animate({
+									$('.pic_play_box').stop(true,true).animate({
 											'left': -($(this).index()) * $('.pic_play_in').width()
 									}, ani_speed);
 							}, function () {
@@ -282,7 +282,7 @@ $(function () {
 											$key = $('.pic_play_box li').length - 2;
 											$('.pic_play_box').css('left', -($key + 1) * $('.pic_play_in').width());
 									}
-									$('.pic_play_box').stop().animate({
+									$('.pic_play_box').stop(true,true).animate({
 											'left': -$key * $('.pic_play_in').width()
 									}, ani_speed);
 
@@ -303,7 +303,7 @@ $(function () {
 									if (i > 1) {
 											i = 0;
 									}
-									$('.sidebar_picplay div a ').eq(i).stop().fadeOut(1000).siblings().fadeIn(1000);
+									$('.sidebar_picplay div a ').eq(i).stop(true,true).fadeOut(1000).siblings().fadeIn(1000);
 									$('.sidebar_picplay span i').eq(i).addClass('cur').siblings().removeClass('cur');
 									i++;
 							}
