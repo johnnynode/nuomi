@@ -47,11 +47,12 @@ sup {
 sub {
     vertical-align:text-bottom;
 }
-input, textarea, select {
+input, textarea, select, button {
     font-family:inherit;
     font-size:inherit;
     font-weight:inherit;
     *font-size:100%;
+    outline: none;
 }
 legend {
     color:#000;

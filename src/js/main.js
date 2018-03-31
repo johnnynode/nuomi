@@ -22,18 +22,23 @@ $(function () {
 							/*alert($num);*/
 							/*$("#main").html($num);*/
 
-							/*当  #topBannerWrap 存在的时候*/
-							if ($('#topBannerWrap').css('display', 'block')) {
-									//alert(1);
+							/*当  #topBannerWrap 存在的时候*/ 
+							if (!$("#topBannerWrap").is(":hidden")) {
 									if ($scrollh >= upbar_top_height) {
 											$(".up_bar").css({
 													"position": "fixed",
 													"top": 0,
 													'z-index': 99999999
 											});
+											$("#content .content_con").css({
+													"padding-top" : 60
+											});
 									} else {
 											$(".up_bar").css({
 													"position": "static"
+											});
+											$("#content .content_con").css({
+												"padding-top" : 0
 											});
 									}
 							} else {
@@ -44,9 +49,15 @@ $(function () {
 													"top": 0,
 													'z-index': 99999999
 											});
+											$("#content .content_con").css({
+												"padding-top" : 50
+										});
 									} else {
 											$(".up_bar").css({
 													"position": "static"
+											});
+											$("#content .content_con").css({
+												"padding-top" : 0
 											});
 									}
 							}
@@ -159,13 +170,14 @@ $(function () {
 			},
 			/* 小组件 */
 			initComponents: function () {
-					/* topBanner 轮播图 */ (function () {
+					/* topBanner 轮播图 */ 
+					(function () {
 							var b_t = 0;
 							var speed3 = 2000;
 							var timer3 = setInterval(bannerPlay, speed3);
 
 							function bannerPlay() {
-									$('.topBanner a').eq(b_t).stop().fadeIn('2000').siblings().stop().fadeOut('2000');
+									$('.topBanner a').eq(b_t).stop().fadeIn('2000').siblings().stop(true,true).fadeOut('2000');
 									$('#topBannerWrap ol li').eq(b_t).addClass('cur').siblings().removeClass('cur');
 									b_t++;
 									if (b_t > 3) {
@@ -177,15 +189,15 @@ $(function () {
 							$('#topBannerWrap ol li').hover(function () {
 									clearInterval(timer3);
 									$(this).addClass('cur').siblings().removeClass('cur');
-									$('.topBanner a').eq($(this).index()).stop().fadeIn('2000').siblings().stop().fadeOut('2000');
+									$('.topBanner a').eq($(this).index()).stop().fadeIn('2000').siblings().stop(true,true).fadeOut('2000');
 							}, function () {
 									clearInterval(timer3);
 									timer3 = setInterval(bannerPlay, speed3);
 							});
 
 							/* closebar 的点击关闭事件 */
-							$('#topBannerWrap span').click(function () {
-									$(this).parent().slideUp();
+							$('#topBannerWrap .close-btn').click(function () {
+									$(this).parent().slideUp(true);
 							});
 					})();
 

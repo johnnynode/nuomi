@@ -178,6 +178,7 @@ a.col_pr {
 	background:url(../images/search_btn.png) no-repeat;
 	float:left;
 	cursor:pointer;
+	border: none;
 }
 .assured {
 	float:left;
@@ -823,9 +824,10 @@ border:1px solid #cdd;
 }
 .up_bar {
 	height:39px;
-	padding-top:11px;
+	padding-top:21px;
 	background:#fafafa;
 	width:980px;
+	overflow: hidden;
 }
 .up_bar p span {
 	color:#666;
@@ -964,6 +966,8 @@ border:1px solid #cdd;
 /*            主要内容                */
 .content_con {
 	width:980px;
+	height: auto;
+	overflow: hidden;
 	font-size:14px;
 }
 .content_con ul {
