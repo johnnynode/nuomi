@@ -544,7 +544,7 @@ a.col_pr {
 	height:230px;
 	position:relative;
 }
-.sidebar_picplay div a img {
+.sidebar_picplay div a {
 	position:absolute;
 	top:0;
 	left:0;

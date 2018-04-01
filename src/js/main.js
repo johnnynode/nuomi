@@ -173,11 +173,11 @@ $(function () {
 					/* topBanner 轮播图 */ 
 					(function () {
 							var b_t = 0;
-							var speed3 = 2000;
+							var speed3 = 3000;
 							var timer3 = setInterval(bannerPlay, speed3);
 
 							function bannerPlay() {
-									$('.topBanner a').eq(b_t).stop(true,true).fadeIn('2000').siblings().stop(true,true).fadeOut('2000');
+									$('.topBanner a').eq(b_t).stop(true,true).fadeIn(speed3/3).siblings().stop(true,true).fadeOut(speed3/3);
 									$('#topBannerWrap ol li').eq(b_t).addClass('cur').siblings().removeClass('cur');
 									b_t++;
 									if (b_t > 3) {
@@ -189,7 +189,7 @@ $(function () {
 							$('#topBannerWrap ol li').hover(function () {
 									clearInterval(timer3);
 									$(this).addClass('cur').siblings().removeClass('cur');
-									$('.topBanner a').eq($(this).index()).stop(true,true).fadeIn('2000').siblings().stop(true,true).fadeOut('2000');
+									$('.topBanner a').eq($(this).index()).stop(true,true).fadeIn(speed3/3).siblings().stop(true,true).fadeOut(speed3/3);
 							}, function () {
 									clearInterval(timer3);
 									timer3 = setInterval(bannerPlay, speed3);
@@ -294,18 +294,19 @@ $(function () {
 							});
 					})();
 
-					/* side_bar 部分 */ (function () {
-							var speed2 = 3000;
+					/* side_bar 部分 */ 
+					(function () {
+							var speed2 = 2000;
 							var timer2 = setInterval(fun2, speed2);
 							var i = 0;
 
 							function fun2() {
-									if (i > 1) {
-											i = 0;
-									}
-									$('.sidebar_picplay div a ').eq(i).stop(true,true).fadeOut(1000).siblings().fadeIn(1000);
+									$('.sidebar_picplay div a').eq(i).stop(true,true).fadeIn(speed2/2).siblings().fadeOut(speed2/2);
 									$('.sidebar_picplay span i').eq(i).addClass('cur').siblings().removeClass('cur');
 									i++;
+									if (i > 1) {
+										i = 0;
+									}
 							}
 
 							/* sidebar 图片 hover */
@@ -319,7 +320,8 @@ $(function () {
 							/* sidebar小圆点的hover */
 							$('.sidebar_picplay span i').hover(function () {
 									clearInterval(timer2);
-									$('.sidebar_picplay div a').eq($(this).index()).fadeIn(1000).siblings().fadeOut(1000);
+									console.log($(this).index());
+									$('.sidebar_picplay div a').eq($(this).index()).stop(true,true).fadeIn(speed2/2).siblings().stop(true,true).fadeOut(speed2/2);
 									$(this).addClass('cur').siblings().removeClass('cur');
 							}, function () {
 									clearInterval(timer2);
