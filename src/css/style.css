@@ -135,6 +135,9 @@ a.col_pr {
 	position:relative;
 	top:-2px;
 }
+.header-wrap{
+	background-color: #fff;
+}
 #header {
 	width:1200px;
 	height:72px;
@@ -1332,15 +1335,19 @@ border:1px solid #cdd;
 	font-style:normal;
 	color:#FE6699;
 }
+.page-wrap {
+	text-align: center;
+	width: 100%;
+}
 .page {
-	width:420px;
-	background:red;
+	width:auto;
+	display: inline-block;
 	margin:30px auto 0;
 	color:#3e3e3e;
 }
 .page li {
 	text-align:center;
-	width:25px;
+	min-width: 28px;
 	height:28px;
 	float:left;
 	font-size:14px;
