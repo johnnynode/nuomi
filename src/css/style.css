@@ -4,7 +4,7 @@ body {
 	font-size:12px;
 	font-family:"宋体";
 	color:#616161;
-	background:#fafafa;
+	background-color: #fff;
 }
 #topBannerWrap {
 	height:89px;
@@ -178,10 +178,13 @@ a.col_pr {
 .seachBtn button {
 	height:40px;
 	width:99px;
-	background:url(../images/search_btn.png) no-repeat;
+	background:#fd678f url(../images/search-icon.png) no-repeat 10px 8px;
 	float:left;
 	cursor:pointer;
 	border: none;
+	color: #fff;
+	font-size: 16px;
+	padding-left: 28px;
 }
 .assured {
 	float:left;
