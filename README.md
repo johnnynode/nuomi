@@ -10,7 +10,7 @@
 
 - $ `yarn install` or $ `npm i`
 
-### 预览（preview)
+### 预览(preview)
 
 - $ `gulp server`
 
